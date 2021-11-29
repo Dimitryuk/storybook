@@ -1,0 +1,20 @@
+.item {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+}
+
+.item svg {
+  margin-right: 10px;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #ccc;
+}
+
+.item:hover svg,
+.item:focus svg {
+  color: tomato;
+}
