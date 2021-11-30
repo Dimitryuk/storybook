@@ -12,6 +12,13 @@ const Template = (args) => <AppBar {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   logoImg:
-    "https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1638194607~hmac=08766c1f2a8a5278b7c9e2556ce716cc",
+    "https://cdn-icons-png.flaticon.com/512/1864/1864593.png",
   navItems,
 };
+
+export const Minimized = Template.bind({});
+Minimized.args = {
+  ...Default.args,
+  minimized:true
+}
+  

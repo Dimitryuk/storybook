@@ -1,15 +1,15 @@
 import Navigation from "./Navigation";
 import { HiHome, HiBookOpen, HiCalendar } from "react-icons/hi";
 export const navItems = [
-  {
+  {to:"/home",
     text: "Главная",
     icon: <HiHome size="24" />,
   },
-  {
+  {to:"/schedule",
     text: "Расписание",
     icon: <HiCalendar size="24" />,
   },
-  {
+  {to:"/book",
     text: "Конспект",
     icon: <HiBookOpen size="24" />,
   },

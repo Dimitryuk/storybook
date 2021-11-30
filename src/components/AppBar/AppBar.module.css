@@ -1,0 +1,19 @@
+.appBar {
+  width: 260px;
+  min-height: 100vh;
+  box-shadow: 0 20px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%);
+}
+
+.logoThumb {
+  padding: 80px;
+}
+
+.appBar.minimized {
+  width: 80px;
+}
+
+.content {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

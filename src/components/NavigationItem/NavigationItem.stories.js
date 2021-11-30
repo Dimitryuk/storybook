@@ -11,6 +11,7 @@ export default Stories;
 const Template = (args) => <NavigationItem {...args} />;
 export const Default = Template.bind({});
 Default.args = {
+  to:"/home",
   text: "Главная",
   icon: <HiHome size="24" />,
 };
